@@ -1,0 +1,55 @@
+# Terraform files
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+tfplan
+
+# Variables with sensitive data
+*.tfvars
+*.tfvars.json
+!example.tfvars
+
+# Environment variables
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.backup
+*.bak
+
+# Log files
+*.log
+
+# Crash dumps
+crash.log
+crash.*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node (if using CDK or similar)
+node_modules/
+dist/
+
+# Plan files (if not using versioned plans)
+*.tfplan
+
+# Credential files
+credentials
+.aws/credentials
+.aws/config
